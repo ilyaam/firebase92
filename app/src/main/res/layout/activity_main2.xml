@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rencana Materi Magang"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_margin="20dp"/>
+    <Button
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pembekalan Magang"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/terserah"
+    />
+
+<Button
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pengukuran Listrik"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:textAllCaps="false"
+    android:layout_marginBottom="15dp"
+    android:textColor="@color/black"
+    android:backgroundTint="@color/terserah"
+
+    />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Rangkaian dan Instalasi Listrik Dasar"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/terserah"/>
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistem Basis Data"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/terserah"
+        />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pemrograman Web"
+        android:textAllCaps="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/terserah"
+        />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pemrograman Android"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/terserah"
+        />
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Microcontroller dan IoT"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/terserah"
+        />
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="Lanjut"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/terserah"
+        android:id="@+id/lanjut"
+        android:onClick="lanjut"
+
+        />
+</LinearLayout>

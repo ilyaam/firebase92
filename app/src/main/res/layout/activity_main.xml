@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:src="@drawable/logo_unnes"
+       android:layout_marginBottom="15dp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="Magang Kedaireka"
+       android:textStyle="bold"
+       android:textSize="20sp"
+       android:textColor="@color/black"
+       android:layout_marginBottom="-15dp"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Magang kerjasama Prigel merupakan bagian dari BKP UNNES Prigel yang memberikan kesempatan kepada mahasiswa UNNES untuk mengikuti magang di CV.Berkat Sejahtera Garment (Best Garment) bekerja sama dengan Tim Kedaireka dalam penerapan teknologi Internet of Things pada divisi logistik truk pengangkutan kain. Mahasiswa dikenalkan tentang kegiatan logistik pengangkutan kain dan juga pengetahuan dasar pembuatan teknologi sistem Tracking dan Monitoring berbasis Internet of Things."
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:layout_margin="20dp"/>
+
+   <Button
+       android:id="@+id/btn_kirim"
+       android:layout_width="205dp"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:layout_marginBottom="20dp"
+       android:backgroundTint="@color/lightblue"
+       android:text="Lanjut"
+       android:textColor="@color/black"
+       android:onClick="btn_kirim"
+       />
+
+</LinearLayout>
